@@ -29,15 +29,18 @@ const testimonials = ref([
   { name: 'Mehmet K.', text: 'Sahiplendirme süreci çok kolay ve profesyoneldi. Kesinlikle tavsiye ederim.', avatar: 'https://i.pravatar.cc/150?img=2' },
   { name: 'Zeynep A.', text: 'Evimize kattığımız minik dostumuz hayatımızı değiştirdi. Mutluluk verici bir deneyim.', avatar: 'https://i.pravatar.cc/150?img=3' },
 ]);
-
-const navigateToApplication = () => {
-  router.push('/apply');
-};
 </script>
 
 <template>
-  <div class=" min-h-screen flex flex-col items-center p-8">
-    <h1 class="text-6xl font-bold text-gray-800 mb-8 text-center">Sincan Belediyesi <br><span class="text-blue-600">Sahiplendirme</span></h1>
+  <div class="min-h-screen flex flex-col items-center p-8">
+    <div class="text-center mb-12">
+      <h1 class="text-5xl font-bold text-gray-800 mb-4">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">
+          Sincan Belediyesi
+        </span>
+      </h1>
+      <h2 class="text-4xl font-semibold text-gray-700">Sahiplendirme Projesi</h2>
+    </div>
 
     <div class="relative w-full max-w-6xl h-[600px] mb-16 overflow-hidden rounded-3xl shadow-2xl">
       <transition-group name="slide">
@@ -130,10 +133,6 @@ const navigateToApplication = () => {
         </div>
       </div>
     </div>
-
-    <button @click="navigateToApplication" class="bg-blue-600 text-white font-semibold py-5 px-12 rounded-full hover:bg-blue-700 transition duration-300 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 text-xl shadow-lg transform hover:scale-105">
-      Hemen Başvur
-    </button>
   </div>
 </template>
 

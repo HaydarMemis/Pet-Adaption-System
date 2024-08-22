@@ -13,8 +13,11 @@ const toggleMenu = () => {
   <div class="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col">
     <header class="bg-white shadow-lg sticky top-0 z-50">
       <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-          Sincan Belediyesi Hayvan Sahiplendirme Sistemi
+        <div class="flex items-center">
+          <img src="@/assets/image/logo.jpeg" alt="Sincan Belediyesi Logo" class="h-16 w-auto mr-4">
+          <div class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            Hayvan Sahiplendirme Sistemi
+          </div>
         </div>
         <nav class="hidden md:flex space-x-6">
           <RouterLink to="/" class="text-gray-600 hover:text-purple-600 transition-colors duration-200">Ana Sayfa</RouterLink>
@@ -71,6 +74,10 @@ const toggleMenu = () => {
         <p>&copy; 2024 Sahiplendirme. Tüm hakları saklıdır.</p>
       </div>
     </footer>
+
+    <RouterLink to="/apply" class="fixed bottom-8 right-8 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-3 px-6 rounded-full hover:from-blue-600 hover:to-purple-700 transition duration-300 focus:outline-none focus:ring-4 focus:ring-purple-500 focus:ring-opacity-50 text-lg shadow-lg transform hover:scale-105 z-50">
+      Hemen Başvur
+    </RouterLink>
   </div>
 </template>
 
@@ -81,7 +88,7 @@ const toggleMenu = () => {
 }
 
 .fade-enter-from,
-.fade-leave-to {
+.fade-to {
   opacity: 0;
 }
 </style>

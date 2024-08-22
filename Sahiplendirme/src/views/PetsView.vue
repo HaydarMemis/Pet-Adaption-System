@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-br from-indigo-50 to-purple-100 min-h-screen p-4 sm:p-8">
+  <div class=" min-h-screen p-4 sm:p-8">
     <div class="max-w-7xl mx-auto">
       <h1 class="text-5xl sm:text-6xl font-extrabold text-center text-indigo-800 mb-2 tracking-tight">Sevgi Dolu Dostlar</h1>
       <p class="text-xl sm:text-2xl text-center text-indigo-600 mb-12">Yeni bir aile üyesi edinmeye hazır mısınız?</p>

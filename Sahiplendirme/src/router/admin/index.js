@@ -1,8 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
 
-const adminRouter = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+const 
+adminRouter= [
     {
       path: '/admin',
       name: 'adminHome',
@@ -40,6 +38,5 @@ const adminRouter = createRouter({
       meta: { requiresAuth: true }
     }
   ]
-})
 
 export default adminRouter

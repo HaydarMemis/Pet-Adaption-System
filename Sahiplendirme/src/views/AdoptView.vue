@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-purple-100 to-indigo-100 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+  <div class=" min-h-screen py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto">
       <h1 class="text-4xl font-extrabold text-indigo-800 mb-6 text-center">Sahiplenme Sayfası</h1>
       <p class="text-xl text-indigo-600 mb-12 text-center">Evcil hayvan sahiplenmek için aşağıdaki adımları takip edebilirsiniz.</p>
