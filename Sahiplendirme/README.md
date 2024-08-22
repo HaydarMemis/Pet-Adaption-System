@@ -1,41 +1,49 @@
-# Sahiplendirme
+# Pet Adoption Project
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a web application designed to facilitate and manage the pet adoption process.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- User management
+- Shelter management
+- Pet management
+- Adoption application management
+- Search and filtering capabilities
 
-## Customize configuration
+## Technologies
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue.js 3
+- Vite
+- Tailwind CSS
 
-## Project Setup
+## Installation
 
-```sh
-npm install
-```
+Follow these steps to run the project on your local machine:
 
-### Compile and Hot-Reload for Development
+1. Clone the repository:
+   ```
+   git clone https://github.com/username/pet-adoption.git
+   ```
 
-```sh
-npm run dev
-```
+2. Navigate to the project directory:
+   ```
+   cd pet-adoption
+   ```
 
-### Compile and Minify for Production
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-```sh
-npm run build
-```
+4. Start the development server:
+   ```
+   npm run dev
+   ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Contributing
 
-```sh
-npm run test:unit
-```
+If you'd like to contribute to the project, please send a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-### Lint with [ESLint](https://eslint.org/)
+## License
 
-```sh
-npm run lint
-```
+This project is licensed under the [MIT License](LICENSE).
