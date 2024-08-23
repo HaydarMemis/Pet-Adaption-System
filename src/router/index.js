@@ -5,7 +5,6 @@ import adminRouter from './admin'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-
     {
       path: '/',
       name: 'home',
@@ -61,17 +60,28 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue')
-    }
-    ,
+    },
+    {
+      path: '/faq',
+      name: 'faq',
+      component: () => import('../views/FaqView.vue')
+    },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import('../views/PrivacyView.vue')
+    },
+    {
+      path: '/terms',
+      name: 'terms',
+      component: () => import('../views/TermsView.vue')
+    },
     {
       path: '/admin',
       name: 'admin',
       meta: { requiresAuth: true },
-      children: [
-        ...adminRouter
-      ]
-    },
-    
+      children: [...adminRouter]
+    }
   ]
 })
 
